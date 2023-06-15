@@ -1,51 +1,36 @@
-# Projeto da disciplina Backend com NodeJS & Express
+# Projeto API NodeJS & Express & MongoDB
 
-> Professor: Orlando Fonseca Guilarte
 
 ## Projeto TODO LIST
-> Status: concluido
+> Status: em desenvolvimento
 
 ## Objetivo 
 
-- Implementar uma REST API usando NODEJs
+- Implementar uma REST API usando NODEJs conectado com o banco de dados não relacional _MONGODB_
   
-  O termo _API_ - Application Programming Interface ou (Interface de Programação de Aplicações), amplamente utilizado para desenvolvimento de software.
-
-- Utilizar o gerenciador de pacotes do node(NPM);
-  No projeto eu usei _Node Package Manager_ e o framework EXPRESS para gerenciar as rotas 
-
-- Criação de um CRUD via requisição HTTP.
-
-        |     | Acrônimo para: | Métodos HTTP | Ação      |
-        | --- | -------------- | ------------ | --------- |
-        | C   | Create         | POST         | Criar     |
-        | R   | Read           | GET          | Ler       |
-        | U   | Update         | PUT/PATH     | Atualizar |
-        | D   | Delete         | DELETE       | Excluir   |
-
-- Entre outras....
-
+  
 ## Instalação
 
 Clone o repositório do projeto no seu computador: 
 ```git
-git clone https://github.com/alancamposdev/projeto_backend_nodeJs_Express.git
+git clone https://github.com/alancamposdev/projeto_backend_node_mongodb.git
 ``` 
 
 
 Abra o terminal na pasta raiz do projeto e entre na pasta da API-todolist: `cd .\API-todolist\` e instale as dependências do projeto com o comando 
-``` 
+```shell 
 $ npm install 
 ```
 
-├── dotenv@16.0.3  \
-├── express@4.18.2  \
-└── nodemon@2.0.22  
+├── dotenv@16.0.3  
+├── express@4.18.2  
+├── mongoose@6.2.6  
+└── nodemon@2.0.2    
 
 Inicie o servidor com comando:
 
 ``` 
-npm run start 
+$ npm start 
 ``` 
 
 o projeto irá rodar na porta 
@@ -54,7 +39,8 @@ o projeto irá rodar na porta
 
 ## As rotas da Aplicação
 
-└── http://localhost:3000/     \
-└── http://localhost:3000/tasks
+└── http://localhost:3000/      \
+└── http://localhost:3000/tasks  
+└── http://localhost:3000/tasks/id  
 
 
