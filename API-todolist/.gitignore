@@ -1,6 +1,8 @@
 # Dependências de diretórios 
 node_modules
 
+package-lock.json
+
 # variáveis de ambiente
 .env
 
